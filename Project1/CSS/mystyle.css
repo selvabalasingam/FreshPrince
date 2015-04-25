@@ -1,0 +1,56 @@
+h1 {
+	color: #FFFFFF;
+	font-family: Helvetica, Verdana, Sans-Serif;
+	font-weight: lighter; 
+	font-size: 40px;
+	text-transform: uppercase; /* force text to uppercase */
+	opacity: 0.25; /* 0.25 = 25% opacity */
+    text-align: center;
+    margin-top: 35px;
+}
+
+/* For a gradient */
+div { 
+  
+  background-image:
+    linear-gradient(
+      to top right, 
+      #FF0066, #1919D1
+    );
+}
+
+p {
+   font-family: Helvetica, Verdana, Sans-Serif;
+   color: #FFFFFF;
+   font-weight: lighter; 
+   font-size: 12px;
+   /* for leading */
+   line-height: 1.5; 
+   margin-left: 80px;
+   margin-right: 80px;
+}
+
+ul { 
+	font-family: Helvetica, Verdana, Sans-Serif;
+	color: #FFFFFF;
+	list-style-type: none; /*removed the ugly bullets*/
+ 	text-transform: uppercase; 
+ 	font-size: 10px;
+ 	line-height: 2;
+}
+
+li {
+	display: inline-block; /*places unordered list horizontal*/
+}
+
+a { 
+	font-family: Helvetica, Verdana, Sans-Serif;
+	color: #FFFFFF;
+	font-weight: lighter; 
+    font-size: 12px;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: 0.5;
+}
