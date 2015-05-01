@@ -1,3 +1,13 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 h1 {
 	color: #FFFFFF;
 	font-family: Helvetica, Verdana, Sans-Serif;
@@ -6,7 +16,7 @@ h1 {
 	text-transform: uppercase; /* force text to uppercase */
 	opacity: 0.25; /* 0.25 = 25% opacity */
     text-align: center;
-    margin-top: 35px;
+    padding-top: 45px;
 }
 
 /* For a gradient */
@@ -17,6 +27,12 @@ div {
       to top right, 
       #FF0066, #1919D1
     );
+
+    height: 100%;
+    margin: 0;
+    margin-top: -35px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 p {
@@ -40,7 +56,9 @@ ul {
 }
 
 li {
-	display: inline-block; /*places unordered list horizontal*/
+	display: inline-block;
+  padding-left: 40px;
+   /*places unordered list horizontal*/
 }
 
 a { 
